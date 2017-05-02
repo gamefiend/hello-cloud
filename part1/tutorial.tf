@@ -56,4 +56,7 @@ resource "aws_security_group" "tutorial_http" {
 ### EC2 compute resources
 
 resource "aws_instance" "tutorial" {
+  # TODO: create ami with apache and very basic condition
 
+
+}
