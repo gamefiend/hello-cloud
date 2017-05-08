@@ -10,7 +10,7 @@ When we have video, we'll post it.
 
 To use this tutorial you need the following:
 
-- An active AWS account. When creating the AWS provider resource you will need to provide your own keys.
+- An active AWS account with the privileges to create VPCs, instances, and modify security. When creating the AWS provider resource you will need to provide your own keys.
 
 - The terraform binary. If you do not already have a local copy you can get it here: https://www.terraform.io/downloads.html
 
