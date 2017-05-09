@@ -3,8 +3,7 @@
 ### EC2 compute resources
 
 resource "aws_instance" "tutorial" {
-  # TODO: create ami with apache and very basic condition
-  ami = "${var.ami}"
+  ami = "ami-e4139df2"
   instance_type = "t2.micro"
   associate_public_ip_address = true
   tags {
